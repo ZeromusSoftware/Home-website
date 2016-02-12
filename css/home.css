@@ -1,0 +1,26 @@
+@font-face
+{
+    font-family: "quicksand";
+    src: url('../font/quicksand.otf');
+}
+
+body {
+    background-color: #000;
+    text-align: center;
+    padding-top: 10%;
+    color: #4D4D4D;
+    font-family: quicksand;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-family: quicksand;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: #fff;
+    text-shadow: 0 0 2px #f4f4f4;
+}

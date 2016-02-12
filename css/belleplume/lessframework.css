@@ -1,0 +1,37 @@
+/* Default General  ----------------------------------------------------*/
+.wrapper {
+  width: 100%;
+}
+@media only screen and (max-width: 1100px) {
+/* TABLET GENERAL  ----------------------------------------------------*/
+.grid li {
+    width: 90%;
+    padding: 0 5% 0 5%;
+}
+section {
+    width: 100%;
+}
+#nav0 article {
+    text-align: center;
+}
+
+.grid figure {
+    width: 100%;
+  }
+  body: 100%;
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h6 {
+    font-size: 14px;
+  }

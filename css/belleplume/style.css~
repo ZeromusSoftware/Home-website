@@ -1,0 +1,323 @@
+@import url('widgets.css');
+
+@import url('elements.css');
+
+@import url('../../js/poshytip-1.1/src/tip-yellow/tip-yellow.css');
+
+@import url('isotope.css');
+
+@font-face {
+  font-family:"caviar";
+  src: url(../../font/caviardreams.ttf);
+}
+
+@font-face {
+  font-family: "daniel";
+  src: url(../../font/daniel.ttf);
+}
+
+@font-face
+{
+    font-family: "quicksand";
+    src: url('../../font/quicksand.otf');    
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover, a h2:hover, a:active {
+	color: #333;
+}
+
+a h2 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background: #fff url('../../img/bg.png') repeat-x!important;
+  font-family: caviar;
+  color: #4D4D4D;
+  text-align: center;
+}
+
+header h1, header h2, header nav, section, header nav ul li a, table, footer, footer h1, footer h2, article a {
+  display: inline-block;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+header nav {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+text-align: justify;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+  width: 90%;
+  margin: 12px 5% 12px 5%;
+  padding: 0 0 3px 0;
+}
+
+header img {
+    float: right;
+    padding: 6px 10px 6px 10px;
+    margin-bottom: -3px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+    border-radius: 6px;
+}
+
+header img:hover {
+    box-shadow: 0px 0 6px rgba(0,0,0,.4);
+}
+
+#nav-background form {
+    text-align: center;
+    vertical-align: top;
+}
+
+#nav-background fieldset {
+    padding: 0;
+    margin: -1px 0 -3px 0;
+    border: 0.1px solid lightgrey;
+    display: inline-block;
+}
+
+section, footer {
+  width: 100%;
+  margin: 8px 0 8px 0;
+  text-align: justify;
+}  
+
+footer {
+background: #222;
+margin: 0;
+padding: 25px 0 0 0;
+border-radius: 0px;
+height: 50px;
+color: lightgray;
+text-align: center;
+box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+}
+
+form {
+  display:inline-block;
+}
+  
+.admin {
+  display: inline-block;
+  background-color: transparent;
+  border: none;  
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.hide {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+}
+
+header nav ul a, #website_nav_section1, #website_nav_section2, #website_nav_section3 {
+  text-decoration: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: caviar;
+  background-color: transparent;
+  color: #766E61;
+  padding: 4px;
+}
+
+#nav-background {
+    padding: 12px;
+    background: url("../../img/nav-bg.png") no-repeat 50% -45px;
+}
+
+section img {
+    background-color: white;
+    background: url("../../img/nav-bg.png") no-repeat 50% -45px;
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    padding: 16px;
+}
+
+header {
+  margin-top: 12px;
+  border: 1px solid rgba(0,0,0,0.3);
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  text-align: left;
+}
+
+header form h1, header h1, header form h1 a, header h1 a, #website_title {
+  font-family: caviar;
+  padding: 6px;
+  height: 20px;
+  font-size: 1.5em; 
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#connectBox, #login {
+    float: right;
+    margin: 3px 3px -3px;
+}
+
+#logoBP {
+    float: left;
+    opacity: .6;
+}
+
+#title {
+    display: inline-block;
+    padding: 0;
+    margin:0;
+    line-height: 1;
+}
+
+#connectBox td {
+    background: transparent;
+}
+td a {
+    text-decoration: none;
+    color: #4D4D4D;
+    font-family: quicksand;
+    font-size: 1em;
+}
+
+td a:hover {
+    text-shadow: 0 0 3px #000;
+}
+
+td a:a:selected { box-decoration: none; }
+
+#connectBox table {
+    background: rga(220,220,220,.4);
+}
+
+.separator {
+    border-left: 1px solid #D4D4D4;
+
+}
+
+header h2, #website_subtitle, footer h2, #website_footer, #website_author {
+  font-family: daniel;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+article a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+header nav ul a:hover, article a:hover {
+  color: black;
+  opacity: .8;
+}
+
+header nav ul a:active, article a:active {
+  opacity: 1;
+}
+
+section h1, section #website_nav_section1, section #website_nav_section2, section #website_nav_section3 {
+  font-weight: bold;
+  font-size:2em;
+  font-family:caviar;
+  text-align: center;
+}
+
+section h2, #website_section_subtitle1, #website_section_subtitle2, #website_section_subtitle3 {
+  font-weight: bold;
+  font-size:1.5em;
+  font-family:daniel;
+  color: #888;
+}
+
+section {
+  font-family:quicksand;
+  text-align: center;
+}
+
+section img {
+    text-align: center;
+}
+
+button a {
+  color: black;
+}
+
+table {
+  border-radius: 6px;
+  box-shadow: 0 0 2px black;
+  padding: 4px;
+  margin: 4px;
+  font-size: .9em;
+}
+
+article {
+  display: inline-block;
+  text-align: justify;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+table, td, th {
+  color: #4D4D4D;
+  font-family: quicksand;
+  background-color: #F7F9E7;
+  border-collapse: collapse;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: medium none;
+}
+
+.wrapper {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/*OTHERS*/
+.wrapper2, #filter-buttons {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#filter-buttons {
+  font-family:quicksand;
+}
+#filter-buttons li {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+#filter-buttons li a, .wrapper, ul {
+  display: inline-block;
+}

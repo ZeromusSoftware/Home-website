@@ -1,0 +1,135 @@
+/*Voici le thème iloj en CSS des sites créés avec notre service.*/
+/*Si vous souhaitez apporter des modifications nous vous demandons de créer un nouveau thème.*/
+
+@font-face {
+  font-family: caviar;
+  src: url(../../font/caviardreams.ttf);
+}
+@font-face {
+  font-family: colaborate;
+  src: url(../../font/ColabMed.ttf);
+}
+@font-face {
+  font-family: daniel;
+  src: url(../../font/daniel.ttf);
+}
+@font-face
+{
+    font-family: quicksand;
+    src: url(../../font/quicksand.otf);    
+}
+a {
+    color : rgb(0,0,0);
+    text-decoration : none;
+}
+a:hover {
+    color : rgb(255,255,255);
+}
+h2 {
+    padding : 0;
+    margin : 0;
+}
+input:hover {
+    box-shadow: 0px 0px 8px rgba(255,255,255,1);
+}
+body {
+    background: #fff url(../../img/bg.png) repeat-x!important;
+    color : black;
+    font-family : caviar;
+    margin : 0;
+    padding : 0;
+}
+header {
+    /*background : rgb(25,0,250);*/
+    border-bottom : 1px solid rgba(25,25,25,.4);
+    box-shadow: 0px 0px 8px rgba(55,55,55,1);
+    color : rgb(100,100,100);
+    margin: 0px 0px 50px 0px;
+    padding: 25px 1% 25px 1%;
+    width: 98%;
+/*Dégradé*/
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#ffffff, endColorstr=#ededed,GradientType=0 ); /* IE6-9 */
+}
+#title, #description {
+    display : inline;
+    margin : 0 16px 0 15%;
+}
+#title {
+    font-family : colaborate;
+    font-size : 3em;
+    display : none;
+}
+#description {
+    font-size : 2em;
+}
+section {
+    text-align : center;
+    width : 70%;
+    margin: 1% 15% 16px 15%;
+}
+article h2 {
+    margin : 0;
+    border-radius : 100%;
+    font-weight: initial;
+}
+article:hover a {
+    color : white;
+}
+#section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8 {
+    background : white;
+    border-radius : 100%;
+    box-shadow: 0px 0px 8px rgba(55, 155, 255, 0.6);
+    display : inline-block;
+    height: 100px;
+    width: 150px;
+    vertical-align: super;
+    margin : 50px 32px 32px 32px;
+    padding-top : 50px;
+}
+#section1 h2, #section2 h2, #section3 h2, #section4 h2 {
+    font-size : 2em;
+}
+#section1:hover, #section2:hover, #section3:hover, #section4:hover, #section5:hover, #section6:hover, #section7:hover, #section8:hover {
+    background : grey;
+    box-shadow: 0px 0px 8px rgba(255, 55, 255, 0.6);
+    color : white;
+}
+#section5, #section6, #section7, #section8 {
+    box-shadow: 0px 0px 8px rgba(55, 255, 55, 0.6);
+    height : 90px;
+    padding-top : 60px;
+}
+#section8 {
+    box-shadow: 0px 0px 8px rgba(255, 55, 55, 0.6);
+
+}
+#section5 h2, #section6 h2, #section7 h2, #section8 h2 {
+    font-size : 1.4em;
+}
+#section5:hover, #section6:hover, #section7:hover, #section8:hover {
+    box-shadow: 0px 0px 8px rgba(155, 155, 55, 0.6);
+}
+.floatRight {
+    float : right;
+}
+form fieldset {
+    width : 30%;
+    border : 1px dotted grey;
+}
+.edit {
+    margin: 0 30% 16px 30%;
+    width: 40%;
+    border: none;
+}
+#newSectionButton {
+    width: 60%;
+    margin: 16px 20%;
+    font-size: 1.5em;
+}

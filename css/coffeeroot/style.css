@@ -1,0 +1,230 @@
+@import url('widgets.css');
+
+@import url('elements.css');
+
+@import url('../../js/poshytip-1.1/src/tip-yellow/tip-yellow.css');
+
+@import url('isotope.css');
+
+@font-face {
+  font-family:"caviar";
+  src: url(../../font/caviardreams.ttf);
+}
+
+@font-face {
+  font-family: "daniel";
+  src: url(../../font/daniel.ttf);
+}
+
+@font-face
+{
+    font-family: "quicksand";
+    src: url('../../font/quicksand.otf');    
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+body {
+  background-color: #EBE7D4;
+  font-family: caviar;
+  color: #766E61;
+}
+
+header, header h1, header h2, header nav, header nav ul li a, section, table, footer, footer h1, footer h2, article a {
+  display: inline-block;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+header nav {
+  margin: 0px;
+  padding: 0px;
+}
+
+header, section, footer {
+  width: 96%;
+  margin: 8px 2% 8px 2%;
+  text-align: center;
+}  
+
+form {
+  display:inline-block;
+}
+  
+.admin {
+  display: inline-block;
+  background-color: transparent;
+  border: none;  
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.hide {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+}
+
+header nav ul a, #website_nav_section1, #website_nav_section2, #website_nav_section3 {
+  text-decoration: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: caviar;
+  background-color: transparent;
+  color: #766E61;
+  padding: 4px;
+}
+
+header {
+  border-bottom: 2px inset #D75F00;  
+  border-left: 2px inset #D75F00;  
+}
+
+header form h1, header h1, #website_title {
+  font-family: caviar;
+  padding: 0;
+  margin: 0;
+  font-size: 3em; 
+  font-weight: bold;
+}
+
+  
+header form h1 a, header h1 a, #website_title {
+  color: #D75F00;
+  text-decoration: none;
+}
+
+header h2, #website_subtitle, footer h2, #website_footer, #website_author {
+  font-family: daniel;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+article a {
+  text-decoration: none;
+  font-size: 1.5em;
+  background-color: #766E61;
+  color: #EBE7D4;
+}
+
+header nav ul a:hover, article a:hover {
+  background-color: #D75F00;
+  opacity: .8;
+}
+
+header nav ul a:active, article a:active {
+  opacity: 1;  
+}
+
+section h1, section #website_nav_section1, section #website_nav_section2, section #website_nav_section3 {
+  font-weight: bold;
+  font-size:2em;
+  font-family:caviar;
+}
+
+section h2, #website_section_subtitle1, #website_section_subtitle2, #website_section_subtitle3 {
+  font-weight: bold;
+  font-size:1.5em;
+  font-family:daniel;
+	color: #888;
+}
+
+section {
+  font-family:quicksand;
+  background-color: #F7F9E7;
+  box-shadow: 0px 0px 5px black;
+}
+
+button a {
+  color: black;  
+}
+
+table {
+  background-color: #EBE7D4;  
+  color: #EBE7D4;
+  border-radius: 6px;
+}
+
+article {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+td, th {
+  background-color: #F7F9E7;
+  }
+
+table, td, th {
+  color: #766E61;  
+  font-family: quicksand;
+  border: 1px inset #D75F00;
+  border-collapse: collapse;
+  padding: 6px;
+}
+
+table caption {
+  padding: 10px;  
+}
+
+footer {
+  border-top: 2px inset #D75F00;  
+  border-right: 2px inset #D75F00;  
+}
+
+/*OTHERS*/
+.wrapper {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+}
+
+/* FILTERED ITEMS ----------------------------------------------------*/.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+#filter-buttons {
+  text-align: center;
+  background: url(../img/twitter_ombre.png) no-repeat top center;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 47px;
+  margin-bottom: 20px;
+  font-family: quicksand;
+}
+#filter-buttons li {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+#filter-buttons li a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  line-height: 47px;
+  color: #D75F00;
+  box-shadow: 0 0 2 rgb(240,240,240);
+}
+#filter-buttons li .selected {
+  background: url(../img/filter-arrow.png) no-repeat center top;
+}
